@@ -1,54 +1,3 @@
--- Implemented --
-
-0000 0000 0000 0000 - nop
-1111 1111 1111 1111 - call
-
-0000 0001 aaaa bbbb - add
-0000 0010 aaaa bbbb - sub
-0000 0011 aaaa bbbb - mul
-0000 0100 aaaa bbbb - div
-
-0000 0101 aaaa bbbb - LeftShift
-0000 0110 aaaa bbbb - RightShift
-0000 1000 aaaa bbbb - and
-0000 0111 aaaa bbbb - or
-
-0000 1001 aaaa xxxx- not
-0000 1010 aaaa bbbb - XOR
-0000 1011 aaaa bbbb - NAND
-0000 1100 aaaa xxxx- Increment
-
-0000 1101 aaaa xxxx- Decrement
-0000 1110 aaaa xxxx- Neg
-
--- Not implemented -- 
-
-0000 1110 aaaa bbbb - moveConst
-0000 1111 aaaa bbbb - const
-0001 0000 aaaa bbbb - push
-0001 0001 aaaa xxxx - pop
-
-0001 0010 aaaa bbbb - cmp
-0001 0011 aaaa bbbb - je
-0001 0100 aaaa bbbb - jnp
-0001 0101 aaaa bbbb - ig
-
-0001 0110 aaaa bbbb - jge
-0001 0111 aaaa bbbb - ree
-
-
-
-0011 0001 1111 1111	0001 1011 0000 0000
-0100 0000 0000 0001	1001 0000 0000 0101
-1000 0000 0000 0001	1000 0000 0000 0101
-0000 0000 0000 0000	0000 0000 0000 0000 
-
-
-
-
-
-
-
 descrições:
 aaaa = endereço de um registrador A
 bbbb = endereço de um registrador B
@@ -70,8 +19,8 @@ and	0001 0111 aaaa bbbb	A = A & B			[OK]
 or	0001 1000 aaaa bbbb	A = A | B			[OK]
 not	0001 1001 aaaa xxxx	A = !A				[OK]
 xor	0001 1010 aaaa bbbb	A = A ^ B			[OK]
-inc	0001 1011 aaaa xxxx	A = A + 1			[OK]
-dec	0001 1100 aaaa xxxx	A = A - 1			[OK]
+inc	0001 1011 aaaa xxxx	A = A + 1			...
+dec	0001 1100 aaaa xxxx	A = A - 1			...
 
 mov	0010 0000 aaaa bbbb	A = B				...
 mov	0010 0001 aaaa [bbbb]	A = *B (load)			...
@@ -94,16 +43,5 @@ call	1110 llll llll llll	Chama uma função		...
 ret	1111 1111 1111 1111	Retorna da função		...
 
 
-0011 0001 1111 1111 - mov: reg1 = 255
-0001 1011 0000 0000 - inc: reg0 += 1
-0100 0000 0000 0001 - cmp: reg0 == reg1
-1001 0000 0000 0101 - je: jump if reg0 == reg1 to line 5
-1000 0000 0000 0001 - jump to line 1
-1000 0000 0000 0101 - jump to line 5
-0000 0000 0000 0000 nop
-0000 0000 0000 0000 nop
-
-
- 
 
 
