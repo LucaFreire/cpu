@@ -1,25 +1,25 @@
 -- Implemented --
 
-0000 0000 0000 0000 - nop
-1111 1111 1111 1111 - call
+0000 0000 0000 0000 - nop : Não faz nada
+1111 1111 1111 1111 - call : Chama função
 
-0000 0001 aaaa bbbb - add
-0000 0010 aaaa bbbb - sub
-0000 0011 aaaa bbbb - mul
-0000 0100 aaaa bbbb - div
+0000 0001 aaaa bbbb - add : Soma
+0000 0010 aaaa bbbb - sub : Subtração
+0000 0011 aaaa bbbb - mul : Multiplicação
+0000 0100 aaaa bbbb - div : Divisão
 
-0000 0101 aaaa bbbb - LeftShift
-0000 0110 aaaa bbbb - RightShift
-0000 1000 aaaa bbbb - and
+0000 0101 aaaa bbbb - LeftShift : << (Csharp)
+0000 0110 aaaa bbbb - RightShift : >> (Csharp)
+0000 1000 aaaa bbbb - and 
 0000 0111 aaaa bbbb - or
 
-0000 1001 aaaa xxxx- not
+0000 1001 aaaa xxxx- not : Não lógico (!)
 0000 1010 aaaa bbbb - XOR
 0000 1011 aaaa bbbb - NAND
-0000 1100 aaaa xxxx- Increment
+0000 1100 aaaa xxxx- Increment : A+=1
 
-0000 1101 aaaa xxxx- Decrement
-0000 1110 aaaa xxxx- Neg
+0000 1101 aaaa xxxx- Decrement : A-=1
+0000 1110 aaaa xxxx- Neg : A * -1
 
 -- Not implemented -- 
 
