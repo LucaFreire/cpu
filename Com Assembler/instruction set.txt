@@ -1,0 +1,42 @@
+descrições:
+aaaa = endereço de um registrador A
+bbbb = endereço de um registrador B
+xxxx = tanto faz, será ignorado
+cccc cccc = constante C de 8 bits
+llll llll llll = label L usada para saltos no código de 12 bits
+
+inst	opcode			        descrição			            Implementada
+nop	    0000 xxxx xxxx xxxx	    Não faz nada.                   [OK]
+	
+add	    0001 0000 aaaa bbbb	    A = A + B                       [OK]
+sub	    0001 0001 aaaa bbbb	    A = A - B                       [OK]
+imul	0001 0010 aaaa bbbb	    A = A * B		            	[OK]
+idiv	0001 0011 aaaa bbbb	    A = A / B		            	[OK]
+shl	    0001 0100 aaaa bbbb	    A = A << B		            	[OK]
+shr	    0001 0101 aaaa bbbb	    A = A >> B		            	[OK]
+neg	    0001 0110 aaaa xxxx	    A = -A			            	[OK]
+and	    0001 0111 aaaa bbbb	    A = A & B		            	[OK]
+or	    0001 1000 aaaa bbbb	    A = A | B		            	[OK]
+not	    0001 1001 aaaa xxxx	    A = !A			            	[OK]
+xor	    0001 1010 aaaa bbbb	    A = A ^ B		            	[OK]
+inc	    0001 1011 aaaa xxxx	    A = A + 1		            	[OK]
+dec	    0001 1100 aaaa xxxx	    A = A - 1		               	[OK]
+
+mov     0010 0000 aaaa bbbb	    A = B				            [OK]
+mov	    0010 0001 aaaa [bbbb]	A = *B (load)			        [OK]
+mov	    0010 0010 [aaaa] bbbb	*A = B (store)			        [OK]
+push 	0010 0011 aaaa xxxx	    Coloca A na stack		        [OK]
+pop	    0010 0100 aaaa xxxx	    Remove valor da stack para A	[OK]
+mov	    0011 aaaa cccc cccc	    A = C				            [OK]
+
+cmp	    0100 xxxx aaaa bbbb	    Compara A com B                 [OK]
+cmp	    0101 aaaa cccc cccc	    Compara A com C                 [OK]
+
+jump	1000 llll llll llll	    Pula incondicionalmente		    [OK]
+je	    1001 llll llll llll	    Pula quando igual		        [OK]
+jne	    1010 llll llll llll	    Pula quando diferente		    [OK]
+jg	    1011 llll llll llll	    Pula quando maior		        [OK]
+jge	    1100 llll llll llll	    Pula quando maior ou igual	    [OK]
+
+call	1110 llll llll llll	    Chama uma função		        [OK]
+ret 	1111 1111 1111 1111	    Retorna da função		        [OK]
