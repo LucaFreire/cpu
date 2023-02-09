@@ -1,0 +1,15 @@
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\bin\Debug\net6.0\Assembler.exe
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\bin\Debug\net6.0\Assembler.deps.json
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\bin\Debug\net6.0\Assembler.runtimeconfig.json
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\bin\Debug\net6.0\Assembler.dll
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\bin\Debug\net6.0\Assembler.pdb
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\obj\Debug\net6.0\Assembler.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\obj\Debug\net6.0\Assembler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\obj\Debug\net6.0\Assembler.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\obj\Debug\net6.0\Assembler.AssemblyInfo.cs
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\obj\Debug\net6.0\Assembler.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\obj\Debug\net6.0\Assembler.dll
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\obj\Debug\net6.0\refint\Assembler.dll
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\obj\Debug\net6.0\Assembler.pdb
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\obj\Debug\net6.0\Assembler.genruntimeconfig.cache
+C:\Users\disrct\Desktop\MyLogisim\CPU\Assembler\obj\Debug\net6.0\ref\Assembler.dll

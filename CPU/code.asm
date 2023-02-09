@@ -1,3 +1,8 @@
-    mov $0, 10
-    mov $1, 15
-    add $0, $1
+    mov     $1, 255
+loop:
+    inc     $0
+    cmp     $0, $1
+    je      end
+    jump    loop
+end:
+    jump    end

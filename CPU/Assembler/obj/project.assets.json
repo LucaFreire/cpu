@@ -1,36 +1,38 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SII5CT\\.nuget\\packages\\": {}
+    "C:\\Users\\disrct\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SII5CT\\Desktop\\CPU\\Assembler\\Assembler.csproj",
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\MyLogisim\\CPU\\Assembler\\Assembler.csproj",
       "projectName": "Assembler",
-      "projectPath": "C:\\Users\\SII5CT\\Desktop\\CPU\\Assembler\\Assembler.csproj",
-      "packagesPath": "C:\\Users\\SII5CT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SII5CT\\Desktop\\CPU\\Assembler\\obj\\",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\MyLogisim\\CPU\\Assembler\\Assembler.csproj",
+      "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\MyLogisim\\CPU\\Assembler\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SII5CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -41,16 +43,15 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -59,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
       }
     }
   }
