@@ -1,7 +1,0 @@
-1 - Binario - Hexadecimal (4 bits) (Transformar p/ decimal antes de chegar no hexa) 
-
-    mov $1, 15
-    add $0, $1
-    cmp $0, $1
-    je
-
